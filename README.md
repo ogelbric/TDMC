@@ -492,5 +492,5 @@ https://tdmc-cp-tdmc.tanzu.platform.io
 
 ## Broadcom Support Token
 
-![Version](https://github.com/ogelbric/TDMC/blob/main/TDMC1.png)
+![Version](https://github.com/ogelbric/TDMC/blob/main/Token1.png)
 
