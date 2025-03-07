@@ -524,3 +524,9 @@ https://tdmc-cp-tdmc.tanzu.platform.io
 
 
 
+
+### Other inspiration for TDMC install
+```
+https://github.com/yannicklevederpvtl/tdmc-lab-installation/tree/main
+```
+
