@@ -1,18 +1,21 @@
 # Tanzu Data Management Console (TDMC)
 
 
-Without extensive testing, here are minimum requirements
+## Minimum requirements
+
+```
 TDMC Control Plane
 1 Control Plane Best-Effort-Medium
 4 Worker Nodes - Custom VM Class 8vCPUs 16GB RAM 30Gi for containerd 
+
 TDMC Data Plane
 1 Control Plane Best-Effort-Medium
 5 Worker Nodes - Custom VM Class 8vCPUs 16GB RAM
+```
 
 
 
-
-
+## Steps for Shepeard env
 
 ```
 
