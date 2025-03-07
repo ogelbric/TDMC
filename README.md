@@ -494,3 +494,33 @@ https://tdmc-cp-tdmc.tanzu.platform.io
 
 ![Version](https://github.com/ogelbric/TDMC/blob/main/Token1.png)
 
+
+
+
+
+#
+# Create TKGS cloud account
+#
+```
+{
+    "userName":"administrator@vsphere.local",
+    "password":"RBGI+mwii_DT2fd7",
+    "supervisorManagementIP":"192.168.116.204",
+    "vsphereNamespace":"namespace1000"
+}
+```
+
+![Version](https://github.com/ogelbric/TDMC/blob/main/TKGSCloud1.png)
+
+![Version](https://github.com/ogelbric/TDMC/blob/main/TKGSCloud2.png)
+
+
+#
+# Create Data plane on Cloud Account
+# Use DB cluster from above 
+#
+
+![Version](https://github.com/ogelbric/TDMC/blob/main/DBPlane1.png)
+
+
+
