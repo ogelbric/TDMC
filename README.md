@@ -463,7 +463,8 @@ sheepctl lock extend 423ad174-9b79-4e6e-9dcf-d3142eddfb66 -t 5d -n Tanzu-Sales
 
 
 #
-# Change the IP in DNS to the k get svc -A | grep Load | grep -v "53:" | awk '{ print $5 }'  address 
+# Change the IP in DNS to the k get svc -A | grep Load | grep -v "53:" | awk '{ print $5 }'  address
+# The Shepeard env dns is strange but in a real DNS server scenario the NS for the subdomain should point to the UDP address
 #
  vi /etc/dnsmasq.d/vlan-dhcp-dns.conf
 address=/tanzu.platform.io/192.168.116.208
