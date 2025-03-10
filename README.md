@@ -21,8 +21,7 @@ TDMC Data Plane
 
 1) Creating a new ENV
 	sheepctl pool lock TKGS-3.0.0-VC-8u3-Non-Airgap -n Tanzu-Sales --lifetime 5d --description 'US East (Orf Gelbrich)'
-	sheepctl pool lock TKGS-3.0.0-VC-8u3-Non-Airgap -n Tanzu-Sales --lifetime 5d --description 'US East (Orf Gelbrich)'  
-
+	
 2) Get Shepherd lock and IP/passwords
 
 	sheepctl lock list -n Tanzu-Sales
@@ -89,9 +88,9 @@ TDMC Data Plane
 	kubectl config get-contexts
 	CURRENT   NAME                   CLUSTER           AUTHINFO                                          NAMESPACE
 	*         192.168.116.204        192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   
- 	         svc-tkg-domain-c9      192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   svc-tkg-domain-c9
-  	        svc-velero-domain-c9   192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   svc-velero-domain-c9
-  	        testns                 192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   testns
+ 	          svc-tkg-domain-c9      192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   svc-tkg-domain-c9
+  	          svc-velero-domain-c9   192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   svc-velero-domain-c9
+  	          testns                 192.168.116.204   wcp:192.168.116.204:administrator@vsphere.local   testns
 
 	kubectl config use-context testns 
 
@@ -419,9 +418,6 @@ tdmc-installer install -f /home/kubo/orf/config.yaml
 # to get status (this will be displayed at the start of the install keep track of it!
 #
 tdmc-installer status --id gajppY
-tdmc-installer status --id gajppY --details true
-tdmc-installer status --id YSHJUA --details true
-tdmc-installer status --id YSHJUA --details true | grep Status
 tdmc-installer status --id ZfWQd1 --details true | grep Status
 
 
